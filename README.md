@@ -1,7 +1,7 @@
 # Project_Break_EDA
-Estructura del Proyecto:
-Cargado y exploración inicial de datos:
-Análisis de tipos de datos, valores faltantes y estadísticas básicas.
+ ## Estructura del Proyecto:  
+    **Cargado y exploración inicial de datos:**  
+      Análisis de tipos de datos, valores faltantes y estadísticas básicas.
 Limpieza y procesamiento:
 Imputación de valores nulos y tratamiento de outliers.
 Creación de variables adicionales para el análisis (mes, temporada).
