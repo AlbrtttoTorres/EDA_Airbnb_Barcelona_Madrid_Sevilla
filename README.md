@@ -48,6 +48,7 @@ Este proyecto analiza el impacto de Airbnb en tres ciudades principales de Espa�
 |-- memoria
 |-- presentación
 |-- main
+|-- mapas ciudades
 |-- README.md                   # Descripción general del proyecto.
 ```
 
