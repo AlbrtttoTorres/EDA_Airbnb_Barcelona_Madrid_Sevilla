@@ -44,11 +44,11 @@ Este proyecto analiza el impacto de Airbnb en tres ciudades principales de Espa�
 |-- carpeta src
     |-- src/data/               # Archivos de datos utilizados en el proyecto.
     |-- src/notebooks/          # Notebooks con el EDA y visualizaciones.
-    |-- src/images            # Informes y gráficos generados.
+    |-- src/images              # Informes y gráficos generados.
 |-- memoria
 |-- presentación
 |-- main
-|-- README.md           # Descripción general del proyecto.
+|-- README.md                   # Descripción general del proyecto.
 ```
 
 ## Requisitos
