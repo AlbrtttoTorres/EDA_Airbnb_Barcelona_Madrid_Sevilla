@@ -1,34 +1,76 @@
-# Project_Break_EDA
-# Estructura del Proyecto
+# Análisis de Alojamiento Urbano: Airbnb en Barcelona, Madrid y Sevilla
 
-## Cargado y Exploración Inicial de Datos
-- Análisis de tipos de datos, valores faltantes y estadísticas básicas.
+Este proyecto analiza el impacto de Airbnb en tres ciudades principales de España: Barcelona, Madrid y Sevilla. A través de un análisis exploratorio de datos (EDA), se identifican patrones de precios, demanda y estacionalidad, así como el efecto de Airbnb en el mercado de alquileres tradicionales.
 
-## Limpieza y Procesamiento
-- Imputación de valores nulos y tratamiento de outliers.
-- Creación de variables adicionales para el análisis (mes, temporada).
+## Objetivos del Proyecto
+1. Identificar patrones de precios y demanda en diferentes temporadas.
+2. Analizar las diferencias entre ciudades y barrios.
+3. Evaluar los factores determinantes del precio en Airbnb.
+4. Examinar el impacto de Airbnb en el mercado inmobiliario tradicional.
+5. Proponer recomendaciones para reguladores, anfitriones y turistas.
 
-## Visualización y Análisis Exploratorio
-- Histogramas, boxplots, mapas geográficos y series temporales.
-- Comparativas entre ciudades y barrios.
+## Contenido
 
-## Validación de Hipótesis y Generación de Insights
-- Correlaciones entre variables clave.
-- Identificación de patrones estacionales y geográficos.
+### 1. **Contexto**
+- Airbnb ha transformado el mercado de alojamientos, generando tanto beneficios como retos en ciudades turísticas.
+- Este proyecto investiga cómo Airbnb afecta los precios de alquiler, la disponibilidad de viviendas y las dinámicas del mercado.
 
-## Herramientas Utilizadas
+### 2. **Análisis Exploratorio de Datos (EDA)**
+- **Análisis Univariante**: Distribuciones de precios, reseñas y disponibilidad.
+- **Análisis Bivariante**: Comparaciones entre ciudades, tipos de alojamiento y popularidad de barrios.
+- **Análisis Multivariante**: Factores determinantes del precio mediante regresión y clustering.
 
-### Librerías Python
-- `pandas`, `numpy` para procesamiento de datos.
-- `matplotlib`, `seaborn` para visualizaciones.
-- `folium` para mapas interactivos.
+### 3. **Impacto de Airbnb**
+- Reducción de la oferta de alquiler tradicional.
+- Incremento de precios en barrios céntricos.
+- Desplazamiento de residentes locales.
 
-## Resultados Clave
-- Barcelona tiene los precios más altos y los barrios más rentables (Ciutat Vella).
-- Los meses de verano y diciembre concentran la mayor demanda.
-- Alojamientos completos ofrecen mayores ingresos promedio.
+### 4. **Conclusiones**
+1. Barcelona tiene los precios más altos, mientras que Sevilla ofrece opciones más económicas.
+2. Los apartamentos completos lideran en demanda y precio.
+3. Airbnb contribuye significativamente al aumento de los precios de alquiler tradicional.
+4. Regulaciones estrictas pueden mitigar estos efectos negativos.
 
-## Próximos Pasos
-- Desarrollar modelos predictivos para estimar precios dinámicos.
-- Implementar dashboards interactivos para consulta de insights en tiempo real.
-- Profundizar en el análisis de correlación entre demanda y factores externos (clima, eventos).
+### 5. **Recomendaciones**
+#### Para anfitriones:
+- Implementar precios dinámicos y mejorar la calidad del alojamiento.
+#### Para turistas:
+- Reservar con anticipación en temporadas altas y explorar barrios periféricos.
+#### Para reguladores:
+- Establecer límites en el número de propiedades listadas y fomentar programas de vivienda asequible.
+
+## Estructura del Proyecto
+```
+|-- data/               # Archivos de datos utilizados en el proyecto.
+|-- notebooks/          # Notebooks con el EDA y visualizaciones.
+|-- reports/            # Informes y gráficos generados.
+|-- src/                # Código fuente del análisis.
+    |-- analysis.py     # Scripts para el procesamiento y análisis de datos.
+|-- README.md           # Descripción general del proyecto.
+```
+
+## Requisitos
+### Librerías necesarias:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `folium`
+- `scikit-learn`
+
+### Instalación:
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
+```
+pip install -r requirements.txt
+```
+
+## Visualizaciones Destacadas
+1. Histogramas de distribución de precios.
+2. Series temporales que muestran patrones estacionales.
+3. Mapas interactivos de concentración de precios.
+4. Clusters de alojamientos basados en estacionalidad, precio y disponibilidad.
+
+## Perspectivas Futuras
+- Ampliar el análisis a otras ciudades turísticas como Lisboa o París.
+- Integrar datos adicionales, como opiniones de usuarios y regulaciones locales.
+- Desarrollar un modelo predictivo para precios de Airbnb basado en factores clave.
